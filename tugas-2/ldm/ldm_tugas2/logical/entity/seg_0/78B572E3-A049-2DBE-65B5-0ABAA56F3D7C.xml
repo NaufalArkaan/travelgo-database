@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="profile id" id="0C815F0E-9F25-B1BB-F79F-94CA2C42BDB0">
+<Attribute name="profile_id" id="0C815F0E-9F25-B1BB-F79F-94CA2C42BDB0">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>24724B78-875E-F8C2-C9EE-7185C119C07B</generatorID>
@@ -24,26 +24,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user id" id="AD3DB241-039F-058F-E9FC-7B6F5748D4B6">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>2EE27DFA-3390-BE59-40E5-73110482D04C</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="full name" id="D0EA0131-5D60-A3F6-D778-8A3841AD68F6">
+<Attribute name="full_name" id="D0EA0131-5D60-A3F6-D778-8A3841AD68F6">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>60F36C93-64A0-6BA6-D310-6A6B03F73CDE</generatorID>
@@ -51,12 +37,13 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="phone number" id="1F5B3573-344A-724A-1C69-273A8727BE5E">
+<Attribute name="phone_number" id="1F5B3573-344A-724A-1C69-273A8727BE5E">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>EA4CE719-6B96-C093-8AE2-A908DFC94A41</generatorID>
@@ -65,12 +52,13 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="travel preference" id="A4807793-38CB-F1DA-A4AF-8E14D610F1BC">
+<Attribute name="travel_preference" id="A4807793-38CB-F1DA-A4AF-8E14D610F1BC">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>A0A91D70-DFA0-EB06-C81A-6C8502FCC3E6</generatorID>
@@ -79,9 +67,23 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>874469E8-3AC2-E35E-C22C-BDED5BED6EC0</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="A7EF7C2B-5F70-A5E5-B83A-240D2FEDCBE8">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 14:01:52 UTC</createdTime>
+<generatorID>2EE27DFA-3390-BE59-40E5-73110482D04C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -97,18 +99,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0C815F0E-9F25-B1BB-F79F-94CA2C42BDB0</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="948060C0-6048-FA6A-498A-4F7A755FA1B9" name="INDEX 1v2">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>BE4E5FAE-1105-8002-4F68-AD514935A6B1</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<usedAttributes>
-<attributeRef>AD3DB241-039F-058F-E9FC-7B6F5748D4B6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

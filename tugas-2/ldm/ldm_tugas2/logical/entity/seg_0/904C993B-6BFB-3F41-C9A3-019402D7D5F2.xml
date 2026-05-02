@@ -16,18 +16,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="user id" id="734AD650-11F2-412D-37DF-271C6B785D0F">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<Attribute name="user_id" id="AB079775-6AF3-9BC7-64DC-B985F59280C8">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 14:01:52 UTC</createdTime>
 <generatorID>25507700-5E2D-BEA0-B15B-30CD3780CF1D</generatorID>
 <ownerDesignName>ldm_tugas2</ownerDesignName>
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -42,7 +41,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>734AD650-11F2-412D-37DF-271C6B785D0F</attributeRef>
+<attributeRef>AB079775-6AF3-9BC7-64DC-B985F59280C8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="destination id" id="DC2B78AC-C31D-B801-7AE3-23AEA2B0C757">
+<Attribute name="destination_id" id="DC2B78AC-C31D-B801-7AE3-23AEA2B0C757">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>247C7A37-1696-0432-7BBD-B49E0A16E36D</generatorID>
@@ -24,12 +24,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="destination name" id="99FF3D7A-EF11-322F-85CA-0CE0B76EC5E3">
+<Attribute name="destination_name" id="99FF3D7A-EF11-322F-85CA-0CE0B76EC5E3">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>66606EEA-9302-E45B-0D48-E1CF5186BEF3</generatorID>
@@ -37,10 +37,11 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="country" id="C1F4739A-A075-A346-006C-324C1689C957">
 <createdBy>Naufal</createdBy>
@@ -50,10 +51,11 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="city" id="364EAF18-8490-C3B9-ABBB-F2A6DE0E917E">
 <createdBy>Naufal</createdBy>
@@ -63,10 +65,11 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="description" id="E2BC6E45-9E78-12C1-5853-933ABFA05138">
 <createdBy>Naufal</createdBy>
@@ -77,9 +80,9 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>8F550D88-288D-C2DF-D145-ED55C9A35958</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="category" id="1146A3AA-97B6-59E8-FA61-9C9D720DCA86">
@@ -90,10 +93,11 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

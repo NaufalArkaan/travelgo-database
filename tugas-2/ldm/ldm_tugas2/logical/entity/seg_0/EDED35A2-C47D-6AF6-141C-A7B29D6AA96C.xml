@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="agent id" id="061D93EF-E1A0-A553-0981-D8A805689447">
+<Attribute name="agent_id" id="061D93EF-E1A0-A553-0981-D8A805689447">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>42EC7861-F875-0A18-853F-FAF7F22E8D82</generatorID>
@@ -24,12 +24,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="agent code" id="B51795DB-CCCE-C2D2-9A34-884923CD8334">
+<Attribute name="agent_code" id="B51795DB-CCCE-C2D2-9A34-884923CD8334">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>AB960348-8B43-4D68-4C86-D7E90DE5515E</generatorID>
@@ -37,12 +37,13 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="full name" id="BF75227F-056A-350B-26BB-692C8B7577EB">
+<Attribute name="full_name" id="BF75227F-056A-350B-26BB-692C8B7577EB">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>DE6424E9-1417-4F17-4DB3-B0FBA69F63D8</generatorID>
@@ -50,12 +51,13 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="performance rating" id="2FE00E30-B066-2EC7-2CF6-BFFD10D0AB6D">
+<Attribute name="performance_rating" id="2FE00E30-B066-2EC7-2CF6-BFFD10D0AB6D">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>7AFC5AB7-E848-21E5-D2F4-4E571C72226C</generatorID>
@@ -64,12 +66,14 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>9025127D-8B8F-3A8E-BB91-2ADC63921C57</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="work region" id="890F0FA8-352F-4FA1-E835-C8D19761A991">
+<Attribute name="work_region" id="890F0FA8-352F-4FA1-E835-C8D19761A991">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>217B3E4D-CDF0-B859-E2B8-37D95E23B3A7</generatorID>
@@ -78,12 +82,13 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="supervisor id" id="BAC7FA5E-B27B-8CB9-6214-45718109389F">
+<Attribute name="agent_id1" id="BAC7FA5E-B27B-8CB9-6214-45718109389F">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>3D1534C2-AA71-D2A0-B91A-A8CE684907E6</generatorID>
@@ -93,9 +98,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>061D93EF-E1A0-A553-0981-D8A805689447</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -111,18 +116,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>061D93EF-E1A0-A553-0981-D8A805689447</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="556C70A7-DD6D-F056-BEFC-D57B8EABC2C4" name="INDEX 1">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>3E3C95F6-6246-8535-0B4D-AEFCB8A2E47F</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<usedAttributes>
-<attributeRef>B51795DB-CCCE-C2D2-9A34-884923CD8334</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

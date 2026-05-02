@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="payment id" id="DBFF75EB-0CDD-5196-0D31-3A2900C6B905">
+<Attribute name="payment_id" id="DBFF75EB-0CDD-5196-0D31-3A2900C6B905">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>FFD37804-E83E-7036-2D3E-3DBFD3453B52</generatorID>
@@ -24,26 +24,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="booking id" id="69B33F2E-C6FF-2354-A2CE-DEAD56F7B83C">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>CDC013C4-ECEC-C356-5F3D-B2466C1E67B6</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>21128022-3E33-23C7-9C63-FB323F462D16</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="payment datetime" id="558424E0-2D97-5640-B9FA-94C02BA38100">
+<Attribute name="payment_datetime" id="558424E0-2D97-5640-B9FA-94C02BA38100">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>2109823A-DADE-8DF1-8DD4-B42036FF01F3</generatorID>
@@ -52,13 +38,14 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
-<domain>F3F15BB2-2C9C-EAC0-E74F-5468512F60F9</domain>
+<dataTypePrecision>6</dataTypePrecision>
 <defaultValue>CURRENT_TIMESTAMP</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="payment method" id="0CBFE5B1-2134-5681-AD25-24D0C4C0580D">
+<Attribute name="payment_method" id="0CBFE5B1-2134-5681-AD25-24D0C4C0580D">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>729DED3F-4BC6-C676-1684-4A0F1E899E1A</generatorID>
@@ -66,10 +53,11 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7B6F406D-7A0F-94D9-3690-D8727BCDD92C</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="amount" id="1ADAEF86-426C-A1DE-594F-84436654520B">
 <createdBy>Naufal</createdBy>
@@ -79,12 +67,14 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>54E0A738-6140-5958-0198-25D7C453E5F4</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="payment status" id="36BABC42-70C6-C417-BE87-EC90E10141DC">
+<Attribute name="payment_status" id="36BABC42-70C6-C417-BE87-EC90E10141DC">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>0A9162E2-CB83-3C76-F01C-733D0AA7490F</generatorID>
@@ -92,9 +82,24 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="booking_id" id="8BF43C04-8D7D-CAEF-BFD5-A529DD5AC9E6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 14:29:36 UTC</createdTime>
+<generatorID>CDC013C4-ECEC-C356-5F3D-B2466C1E67B6</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>21128022-3E33-23C7-9C63-FB323F462D16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="booking id" id="21128022-3E33-23C7-9C63-FB323F462D16">
+<Attribute name="booking_id" id="21128022-3E33-23C7-9C63-FB323F462D16">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>3848CA5C-0CE9-4A46-2404-3155B45F3638</generatorID>
@@ -24,12 +24,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trip id" id="3F9CD6D1-9A12-E852-BE1F-98DB57F47044">
+<Attribute name="trip_id" id="3F9CD6D1-9A12-E852-BE1F-98DB57F47044">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>FFD5C8A6-254A-0BD1-D193-CFDB5DBA45C9</generatorID>
@@ -38,26 +38,11 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <referedAttribute>9A7CF496-1E02-D3F2-6079-B58D2699DEF8</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="service id" id="AA386F94-3D4B-9DCF-23EC-DCA1962A6E91">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>7DD1F25A-E446-4788-5A2F-AA021BC4E0BE</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>D279EFF3-CC40-FE78-CDCB-10107D14F7B2</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="booking date" id="E017EDD8-4EA5-9BED-D68E-FFC37E7362BB">
+<Attribute name="booking_date" id="E017EDD8-4EA5-9BED-D68E-FFC37E7362BB">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>37CC30B4-9F8B-1C15-C5C9-BA805383D342</generatorID>
@@ -66,10 +51,25 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
-<domain>F3F15BB2-2C9C-EAC0-E74F-5468512F60F9</domain>
+<dataTypePrecision>6</dataTypePrecision>
 <defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service_id" id="2A117CA4-2F78-8D9A-7323-DB5AA5FE8B51">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 14:20:55 UTC</createdTime>
+<generatorID>7DD1F25A-E446-4788-5A2F-AA021BC4E0BE</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>D279EFF3-CC40-FE78-CDCB-10107D14F7B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

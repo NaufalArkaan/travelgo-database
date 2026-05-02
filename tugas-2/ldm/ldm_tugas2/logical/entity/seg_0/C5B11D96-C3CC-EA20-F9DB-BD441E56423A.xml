@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="trip id" id="9A7CF496-1E02-D3F2-6079-B58D2699DEF8">
+<Attribute name="trip_id" id="9A7CF496-1E02-D3F2-6079-B58D2699DEF8">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>58406DA8-9D85-A878-64CC-92818262A069</generatorID>
@@ -24,26 +24,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user id" id="F1F48C47-7461-F0DB-D3ED-84B75CF23DFA">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>73684AC9-88D5-5D05-463A-416903123893</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="destination id" id="8921CE07-5776-6845-BBA6-BD078070B27F">
+<Attribute name="destination_id" id="8921CE07-5776-6845-BBA6-BD078070B27F">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>6468E0E9-9624-5CD6-7FD5-FB46F35EE9BC</generatorID>
@@ -52,12 +38,12 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <referedAttribute>DC2B78AC-C31D-B801-7AE3-23AEA2B0C757</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="agent id" id="48D4749F-B807-C34E-7D91-244CEBFEA7FA">
+<Attribute name="agent_id" id="48D4749F-B807-C34E-7D91-244CEBFEA7FA">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>9991E88D-909C-318C-3C5E-0688CF789596</generatorID>
@@ -67,12 +53,11 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>061D93EF-E1A0-A553-0981-D8A805689447</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="departure date" id="62EFE18C-9C33-5A8D-AC9E-3D8EE36F542E">
+<Attribute name="departure_date" id="62EFE18C-9C33-5A8D-AC9E-3D8EE36F542E">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>A4DD5F35-54A9-5D5F-FBA5-224916D168D3</generatorID>
@@ -80,9 +65,9 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>3E1B83BA-3E4C-1AA3-529B-D5A87569944A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="return date" id="A8EE70D3-AADD-FF7B-0E7F-EB47CBD0355B">
@@ -93,12 +78,12 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>3E1B83BA-3E4C-1AA3-529B-D5A87569944A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trip status" id="9132C471-B2CC-4E78-982F-0092A974867D">
+<Attribute name="trip_status" id="9132C471-B2CC-4E78-982F-0092A974867D">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>0A5F3914-CE6D-623B-599E-C0700906DD30</generatorID>
@@ -107,12 +92,13 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7B6F406D-7A0F-94D9-3690-D8727BCDD92C</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="total cost" id="3F5F8E20-9B16-FC3A-016A-D8EA9A091174">
+<Attribute name="total_cost" id="3F5F8E20-9B16-FC3A-016A-D8EA9A091174">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>EC47FA70-C511-C49E-E443-4F347D7818E2</generatorID>
@@ -120,10 +106,25 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>54E0A738-6140-5958-0198-25D7C453E5F4</domain>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="E6E18BE7-DB11-EDF8-7C8D-A5FE2E79BFB3">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 14:01:52 UTC</createdTime>
+<generatorID>73684AC9-88D5-5D05-463A-416903123893</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
