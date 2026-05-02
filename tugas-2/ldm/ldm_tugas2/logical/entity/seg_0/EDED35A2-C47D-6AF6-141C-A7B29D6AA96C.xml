@@ -103,6 +103,35 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="user_id" id="0AFFA11F-E09F-9F9B-D157-E45A8B8CC39C">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-02 16:05:16 UTC</createdTime>
+<generatorID>F89E4721-C03F-4BF8-3926-ACFA156C55E5</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id1" id="718E4184-70CD-8D7E-28AF-F1817D6C6C94">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-02 16:12:12 UTC</createdTime>
+<generatorID>3D1534C2-AA71-D2A0-B91A-A8CE684907E6</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0AFFA11F-E09F-9F9B-D157-E45A8B8CC39C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3366F971-9434-61DB-5FBE-28AA8E422661" name="agent PK">
@@ -116,6 +145,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>061D93EF-E1A0-A553-0981-D8A805689447</attributeRef>
+<attributeRef>0AFFA11F-E09F-9F9B-D157-E45A8B8CC39C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

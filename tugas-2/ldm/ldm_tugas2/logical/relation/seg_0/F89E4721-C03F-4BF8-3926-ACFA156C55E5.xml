@@ -1,13 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_agent_user" directorySegmentName="seg_0" id="25507700-5E2D-BEA0-B15B-30CD3780CF1D">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>428E2194-66BC-B7B7-88EB-A41307293CA3</generatorID>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="agent user" directorySegmentName="seg_0" id="F89E4721-C03F-4BF8-3926-ACFA156C55E5">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-02 16:05:16 UTC</createdTime>
 <ownerDesignName>ldm_tugas2</ownerDesignName>
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <sourcePk>34855D4F-6DCA-0729-C26E-4675591963F9</sourcePk>
+<targetPk>3366F971-9434-61DB-5FBE-28AA8E422661</targetPk>
+<arc>F6BC75D4-C69D-580B-78E1-7A3685F27301</arc>
 <dominantRole>ABE8AA95-E270-C5E8-7137-0F3F2BB1E89D</dominantRole>
 <identifying>true</identifying>
 <optionalSource>false</optionalSource>
@@ -15,7 +16,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>ABE8AA95-E270-C5E8-7137-0F3F2BB1E89D</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
-<targetEntity>904C993B-6BFB-3F41-C9A3-019402D7D5F2</targetEntity>
+<targetEntity>EDED35A2-C47D-6AF6-141C-A7B29D6AA96C</targetEntity>
 <transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 </Relation>

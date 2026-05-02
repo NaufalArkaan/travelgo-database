@@ -10,8 +10,8 @@
 <sourcePk>6DB5559E-E59C-12D1-3BCE-3397B4E3F418</sourcePk>
 <dominantRole>F83489E3-A401-F8EF-3AAB-C8DD61C46F32</dominantRole>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F83489E3-A401-F8EF-3AAB-C8DD61C46F32</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

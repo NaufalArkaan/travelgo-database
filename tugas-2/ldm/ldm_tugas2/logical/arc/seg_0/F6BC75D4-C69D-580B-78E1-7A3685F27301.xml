@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="F6BC75D4-C69D-580B-78E1-7A3685F27301" name="Arc_1">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-02 16:07:00 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<entity>ABE8AA95-E270-C5E8-7137-0F3F2BB1E89D</entity>
+<relations>
+<relationID>78E88A3E-17FE-CCBE-7B45-A7F93022EE08</relationID>
+<relationID>F89E4721-C03F-4BF8-3926-ACFA156C55E5</relationID>
+</relations>
+</Arc>
