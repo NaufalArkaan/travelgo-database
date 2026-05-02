@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89CD7B07-F2BE-8507-C581-80F74B5826F3" name="booking">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>3B1B7226-F464-08C7-C656-98A1F9F45F68</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="booking_id" id="3848CA5C-0CE9-4A46-2404-3155B45F3638">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>C021C8E3-A7BF-6341-C8EB-2EC7AF8DABDF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="trip_id" id="89B28C7E-76CD-037D-BA93-DDA676A3930A">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>39BA5C91-F96A-42E8-5075-129B2D729040</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BA1096F-668A-9D3F-4AEC-3B727D7AA2FF" referredColumn="58406DA8-9D85-A878-64CC-92818262A069"/>
+</associations>
+</Column>
+<Column name="service_id" id="C1F6819C-2A34-BD5A-F09B-490D2AFEB6B5">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>2D173BAA-990B-3C15-0E92-6BF6DE2B582B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FC994C3-80C7-B650-2280-6B5FDB6D097F" referredColumn="30FB3CFA-0715-FFAB-8874-18BF3F65BA7A"/>
+</associations>
+</Column>
+<Column name="booking_date" id="37CC30B4-9F8B-1C15-C5C9-BA805383D342">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>46671E02-0A40-E9EC-4B1E-82DFA9088C35</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>F3F15BB2-2C9C-EAC0-E74F-5468512F60F9</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07F6EB4C-5473-584D-7DB1-64033BF8D00D" name="booking_PK">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>4D2B0AA6-BBA0-A76A-DDB3-5922DBA722C4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3848CA5C-0CE9-4A46-2404-3155B45F3638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70896444-B798-2C92-D42C-1572445527C3" name="fk_booking_service">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1F6819C-2A34-BD5A-F09B-490D2AFEB6B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03D8B70E-88B2-99BC-61A4-06174ABC179B" name="fk_booking_trip">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89B28C7E-76CD-037D-BA93-DDA676A3930A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

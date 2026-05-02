@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F203884-1BE0-93E2-9C5C-CA43F2AD069F" name="individual_customer">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>1081DC27-984E-A70D-509F-ED477FE6FA71</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="B7CC986D-3D7D-E0A9-906D-EBCFA47D9178">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>F710F7E3-E033-70FA-CB35-1EF04D7F8894</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF5B4B32-79E0-D2AC-CA52-4A905D3D4105" referredColumn="03342CD1-0CB0-8292-BE08-A5CF3DE38179"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40E5430A-9405-D2F7-066F-A197EC5A5A82" name="individual_customer_PK">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>833F736B-59F5-0236-4B03-91505335C69F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7CC986D-3D7D-E0A9-906D-EBCFA47D9178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="520A3B10-FD19-EF5F-D33C-30DF1DB32EE0" name="fk_individual_user">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7CC986D-3D7D-E0A9-906D-EBCFA47D9178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

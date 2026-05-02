@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="users" directorySegmentName="seg_0" id="8F0A6E64-54EF-9215-4775-F0EB779795B6">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="user_id" id="03342CD1-0CB0-8292-BE08-A5CF3DE38179">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="8772FA32-94B7-C545-0CA3-4D4320C05F43">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_type" id="FC70FF03-E476-B1C8-5118-98C9C2AB6F05">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="users_PK" id="59B35395-9A0B-66DF-D498-816D7EEE6200">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="chk_user_type" id="1424C24D-B0DE-C93C-1A6B-EB4DFEBE846E">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="A67E517E-1256-0F00-26BA-668E24EADF3B">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

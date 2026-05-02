@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="travelgo_ddl_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="3E1B83BA-3E4C-1AA3-529B-D5A87569944A">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="458F7966-FA22-B3DE-8DCF-A07408371D04">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_12_2_0" id="54E0A738-6140-5958-0198-25D7C453E5F4">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="77AC7B32-318D-0620-FF71-4F75EB9BE9F3">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="7B6F406D-7A0F-94D9-3690-D8727BCDD92C">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="874469E8-3AC2-E35E-C22C-BDED5BED6EC0">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="8F550D88-288D-C2DF-D145-ED55C9A35958">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_2_0" id="9025127D-8B8F-3A8E-BB91-2ADC63921C57">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="9F01A392-C7E2-793D-61D0-823B6C5B1987">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="D6D701C8-A623-B1D4-1E60-F41341E33698">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_6_0_0" id="F3F15BB2-2C9C-EAC0-E74F-5468512F60F9">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>travelgo_ddl_Domains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

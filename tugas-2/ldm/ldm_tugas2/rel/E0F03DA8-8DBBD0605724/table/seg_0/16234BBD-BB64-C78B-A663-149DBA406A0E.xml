@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16234BBD-BB64-C78B-A663-149DBA406A0E" name="service">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>44DB2A2B-A0C0-EDE5-CDDD-E2F9BFEB1B03</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="30FB3CFA-0715-FFAB-8874-18BF3F65BA7A">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>B717D40E-DF93-E322-F005-F77E43A57C49</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="service_name" id="C414CDAF-D8F8-3885-36C1-422C58C8D8BA">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>B5EB71F5-DBFC-5506-0777-5A8D913C02A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="35DE8262-C25B-D345-E822-8EC7BDC754E2">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>18755E89-9EAB-F7B6-77FA-FB7B81B7ABBD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F550D88-288D-C2DF-D145-ED55C9A35958</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB1B1AD3-48D6-02AE-E55E-54EBE876AF68" name="service_PK">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>61921CFE-3BC1-DCE0-E805-82A1AA524BCE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30FB3CFA-0715-FFAB-8874-18BF3F65BA7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

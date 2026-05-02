@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ldm_tugas2" id="BB54F15E-1610-B03C-33AB-6D82C45A2608" version="3.5">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 12:55:04 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BB54F15E-1610-B03C-33AB-6D82C45A2608</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C7BFC354-BA7B-A71C-9801-38EC80608367">
+<designStoragePath>C:\travelgo_ddl</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

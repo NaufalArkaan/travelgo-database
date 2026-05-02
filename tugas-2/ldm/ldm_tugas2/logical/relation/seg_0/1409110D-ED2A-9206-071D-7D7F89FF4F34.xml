@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_price_service" directorySegmentName="seg_0" id="1409110D-ED2A-9206-071D-7D7F89FF4F34">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>49F842AE-9588-4E29-7771-B418DBE46431</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<sourcePk>ED60FFD8-877C-7D16-2E49-20D603266FEA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F0FA620-B283-7475-D4DC-8FE1C5148D0C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B394179-2D4E-3C0F-B70B-A32B8383789E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

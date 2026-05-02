@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16F3AA42-6D92-8C5F-AD1D-C040A8AD595F" name="accommodation">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>E2F7989D-ACF7-7E26-9828-68DCA3114579</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="A778EEBD-1167-A99F-1A35-9D3D531295E0">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>9BC3AF53-284C-F993-C6A8-42B90C54EF9E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1192528-DB7E-ED06-2FA2-761657C59C48" referredColumn="30FB3CFA-0715-FFAB-8874-18BF3F65BA7A"/>
+</associations>
+</Column>
+<Column name="room_type" id="E9E19623-58F5-6CA1-F110-CD7274788CCA">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>C00E4C1F-A6E0-5C7C-C005-2F4C90804075</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D6D701C8-A623-B1D4-1E60-F41341E33698</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="guest_capacity" id="28916423-D310-B9F6-A297-C75CDC8BC635">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>81440C41-6908-9880-D20B-AA8585246F8E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facilities" id="45D357E8-43D9-61B4-84FD-6281B513E577">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>92953174-DAA0-FAB3-CA9D-64C13AE28DD2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F550D88-288D-C2DF-D145-ED55C9A35958</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22DC4C79-B7A9-D7A6-79B4-85C4BD247EEF" name="accommodation_PK">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>1CC45299-6E12-E6A0-957E-863B9AD62F78</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A778EEBD-1167-A99F-1A35-9D3D531295E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B007DAD-11BB-6B05-2E6F-A8E91E720A0E" name="fk_accommodation_service">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A778EEBD-1167-A99F-1A35-9D3D531295E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

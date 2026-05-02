@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_status_booking" directorySegmentName="seg_0" id="963518CD-FF31-EDE2-C749-252D72BBE45B">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>E6EDD4E5-4793-0915-CF59-C9F6ADD01098</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<sourcePk>693E70B1-4612-B1FA-DD72-053649C3C5D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E3B0464-AD8E-993F-1330-647481E7F4E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BBE47384-982F-5F89-CCAD-900F4C042971</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

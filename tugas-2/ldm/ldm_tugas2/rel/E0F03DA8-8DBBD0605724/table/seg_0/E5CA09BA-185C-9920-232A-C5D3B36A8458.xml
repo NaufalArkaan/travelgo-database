@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5CA09BA-185C-9920-232A-C5D3B36A8458" name="transportation">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>BED3E5AA-5BD6-E51B-C589-B2B1923402DB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="FD51DD9C-CAF9-392D-5B74-4D70F9B7DA1D">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>B41C8C7C-0961-60FE-7774-F744BA80D286</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E00D18A-D82D-F7A8-8ECD-F814FF4BE4B4" referredColumn="30FB3CFA-0715-FFAB-8874-18BF3F65BA7A"/>
+</associations>
+</Column>
+<Column name="vehicle_type" id="A7CA223B-DF75-3A18-BD73-BA48EDC7B568">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>3BFE53C4-9F14-6D25-8D96-CBB0181350C5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origin_city" id="86AC22B8-8FA0-9E8A-A4B4-4D901070ED72">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>384A6FAA-0DF6-9693-2A20-2F9B0CE261CF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destination_city" id="55D8CA18-BC8A-B2A8-73D9-2988F167B451">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>A25423EA-CCE4-29B6-7C67-09E9D6160386</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="service_class" id="2A380AED-783E-9EA1-B66F-D7A4FC9805B4">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>3CD3BE85-A3BF-BAA3-EB9C-7A1169A8D2CD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42D1B5BA-0FDC-6111-519E-CBCC216700A3" name="transportation_PK">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>22BCA32E-A194-ECE3-01BD-DF3787F6720B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD51DD9C-CAF9-392D-5B74-4D70F9B7DA1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="668A87D7-0AFD-394A-380C-94FBEE02DFF6" name="fk_transport_service">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD51DD9C-CAF9-392D-5B74-4D70F9B7DA1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_vehicle_type" directorySegmentName="seg_0" id="5C850E8C-FA87-D2B5-6175-C7F86972A54C">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>9E199001-6866-DF91-7B8B-B3D81D6027C5</importedID>
+<rule><![CDATA[vehicle_type IN ('PESAWAT', 'BUS', 'KERETA')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_service_class" directorySegmentName="seg_0" id="286AE598-343D-90A7-267C-679B4935DA1B">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>506CDDAE-FC10-E52D-6578-F720DE814768</importedID>
+<rule><![CDATA[service_class IN ('EKONOMI', 'BISNIS', 'EKSEKUTIF')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

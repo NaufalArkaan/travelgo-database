@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82676885-ED15-2AC2-90CE-CAEAE2DF8B4F" name="address">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>0579D51F-6231-1457-2013-22787B5BE23C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address id" id="AEC122BC-72A3-201E-9B57-E2719A8FF87F">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>EA5C3E60-5F82-E06E-680D-11CAD0D799F9</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user id" id="D46D319E-67ED-D45D-F7A6-5D27CE5F0BDD">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>CCFD0B6A-0BA6-ECCE-6635-B466C8591703</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77AC7B32-318D-0620-FF71-4F75EB9BE9F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="A1EBE524-10EC-BE82-1660-9B5D97447279">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>C1BC4215-70F9-A8B1-D0FE-D8F39B38F4CA</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>874469E8-3AC2-E35E-C22C-BDED5BED6EC0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="3F24CCA1-347F-865C-9A98-C96A794E7341">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>6A2A3202-F065-38A5-7EA8-6B1D45EF4B13</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="province" id="0F808A86-8B7E-A153-98E4-6DFB7620F4E7">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>33722D6A-99AF-77B9-8FC6-7A8E4ED07570</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal code" id="8BEDA7A6-41F7-6B86-FEDF-94821CBB39D4">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>92C5C05C-F352-7829-12EA-6A66CE7BE5DC</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F01A392-C7E2-793D-61D0-823B6C5B1987</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="08F3CECA-A19D-D0EF-4316-7741A7DCC37B">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>6B04DB12-D4F8-D0C9-61B6-AAA8DD266A27</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>458F7966-FA22-B3DE-8DCF-A07408371D04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6525883-65FD-A80A-9772-DF81279F4654" name="address PK">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>4553D5FD-B6D7-9C14-01EE-7ADEB7D56476</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEC122BC-72A3-201E-9B57-E2719A8FF87F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

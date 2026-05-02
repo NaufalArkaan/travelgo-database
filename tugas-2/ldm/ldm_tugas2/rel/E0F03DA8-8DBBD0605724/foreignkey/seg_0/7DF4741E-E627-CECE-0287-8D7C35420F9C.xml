@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DF4741E-E627-CECE-0287-8D7C35420F9C" containerWithKeyObject="2B2AA447-B798-4D04-5EF9-E1849292CE27" localFKIndex="5280146C-7895-0550-53B0-D96711FA7F66" name="fk_profile_user">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>617E3448-D45B-0984-75F4-3094A7CE0E98</importedID>
+<referredTableLongName>users</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>8F0A6E64-54EF-9215-4775-F0EB779795B6</referredTableID>
+<keyObject>59B35395-9A0B-66DF-D498-816D7EEE6200</keyObject>
+<referredKeyID>59B35395-9A0B-66DF-D498-816D7EEE6200</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

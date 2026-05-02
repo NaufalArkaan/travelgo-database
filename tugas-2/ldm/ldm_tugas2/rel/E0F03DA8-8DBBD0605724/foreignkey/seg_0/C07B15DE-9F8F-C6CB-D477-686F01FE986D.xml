@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C07B15DE-9F8F-C6CB-D477-686F01FE986D" containerWithKeyObject="B1278781-87EE-2E3A-F36D-ECDF882D0344" localFKIndex="D7925870-EBB4-613D-A4BC-4AE896A32D2D" name="fk_payment_booking">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>2C4D9E92-6C89-17C9-095F-4A6983618EC5</importedID>
+<referredTableLongName>booking</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>89CD7B07-F2BE-8507-C581-80F74B5826F3</referredTableID>
+<keyObject>07F6EB4C-5473-584D-7DB1-64033BF8D00D</keyObject>
+<referredKeyID>07F6EB4C-5473-584D-7DB1-64033BF8D00D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>booking_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

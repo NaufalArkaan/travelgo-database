@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_trip_agent" directorySegmentName="seg_0" id="9991E88D-909C-318C-3C5E-0688CF789596">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>B07D2DA5-60D7-09C1-A575-15230D798BAD</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<sourcePk>3366F971-9434-61DB-5FBE-28AA8E422661</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EDED35A2-C47D-6AF6-141C-A7B29D6AA96C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C5B11D96-C3CC-EA20-F9DB-BD441E56423A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_loyalcard_user" directorySegmentName="seg_0" id="B539DB4C-FE08-326C-6DF9-D75EDFFE5F1C">
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:39 UTC</createdTime>
+<generatorID>613C2245-E205-D34C-4E40-2E8989C2AE69</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<sourcePk>6DB5559E-E59C-12D1-3BCE-3397B4E3F418</sourcePk>
+<dominantRole>F83489E3-A401-F8EF-3AAB-C8DD61C46F32</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F83489E3-A401-F8EF-3AAB-C8DD61C46F32</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1213AE96-045C-65EB-47BB-C8AD284543EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

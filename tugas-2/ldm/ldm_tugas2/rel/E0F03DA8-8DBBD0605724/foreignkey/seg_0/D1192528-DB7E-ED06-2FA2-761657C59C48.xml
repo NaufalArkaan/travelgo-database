@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1192528-DB7E-ED06-2FA2-761657C59C48" containerWithKeyObject="16F3AA42-6D92-8C5F-AD1D-C040A8AD595F" localFKIndex="4B007DAD-11BB-6B05-2E6F-A8E91E720A0E" name="fk_accommodation_service">
+<sourceDDLFile>travelgo_ddl.sql</sourceDDLFile>
+<createdBy>Naufal</createdBy>
+<createdTime>2026-05-02 13:16:16 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<importedID>4641B7C1-8812-5A1F-C638-17E12572EA53</importedID>
+<referredTableLongName>service</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>16234BBD-BB64-C78B-A663-149DBA406A0E</referredTableID>
+<keyObject>CB1B1AD3-48D6-02AE-E55E-54EBE876AF68</keyObject>
+<referredKeyID>CB1B1AD3-48D6-02AE-E55E-54EBE876AF68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>service_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
