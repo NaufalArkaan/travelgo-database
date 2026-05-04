@@ -12,6 +12,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>2F0FA620-B283-7475-D4DC-8FE1C5148D0C</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -85,6 +86,7 @@
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
 <referedAttribute>D279EFF3-CC40-FE78-CDCB-10107D14F7B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
