@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F01B378-4D69-4D7C-0D41-03443C280070" name="booking_status_history">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>BBE47384-982F-5F89-CCAD-900F4C042971</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="status_history_id" id="C8D935F7-2342-2827-B227-093C18F3F9EB">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>794BBA63-ABAD-C461-A8DC-D72BC707E90B</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="7818639F-A9AE-4503-E4FD-402B20BE8DFF">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>48A7F7E3-ABFD-50BE-C3F7-77E84B7A9B86</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changed_at" id="AE5817C2-9D02-388D-E082-77CE1C3DF15F">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>5995B013-4E9A-8AF7-E054-436793E4556E</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sequence_no" id="F3DB543F-A10F-93DC-3A8C-37A69864EFE8">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>23F03559-8EEB-9D97-7C70-8FB5580A50B6</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_id" id="21FD2346-D825-6CB1-B239-A57694094474">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>589F8753-9683-8B5B-7805-7BE41AB50121</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F1303D7-6AE2-9DEC-5AA2-2F9D9213588E" referredColumn="255FDD6D-F8FE-0AC0-6E85-BABEA9525C86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12477749-7CB3-F60B-7A88-DE0525A1B015" name="booking_status_history_PK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>A65CA407-3131-E66A-2BC2-08976D609CF4</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D935F7-2342-2827-B227-093C18F3F9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8E0BCB7-47A3-730D-E4D0-30AFBD73ABD2" name="booking_status_history_booking_trip_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>963518CD-FF31-EDE2-C749-252D72BBE45B</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21FD2346-D825-6CB1-B239-A57694094474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

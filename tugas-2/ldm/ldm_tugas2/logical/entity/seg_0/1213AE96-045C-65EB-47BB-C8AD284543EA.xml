@@ -87,6 +87,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="user_id1" id="46A42482-55AE-AEEA-8D45-95FD823BF9FE">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:24:18 UTC</createdTime>
+<generatorID>B539DB4C-FE08-326C-6DF9-D75EDFFE5F1C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B8E01240-8822-780C-803B-FFED0C8FB9BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FE1EA89C-9570-912B-E209-2BB35BD765A3" name="loyalcard PK">

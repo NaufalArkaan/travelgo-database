@@ -73,20 +73,6 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="booking_id" id="7BED55BC-FD30-4DE6-8D52-187EF320C347">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-02 14:29:36 UTC</createdTime>
-<generatorID>963518CD-FF31-EDE2-C749-252D72BBE45B</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>21128022-3E33-23C7-9C63-FB323F462D16</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A65CA407-3131-E66A-2BC2-08976D609CF4" name="booking status history PK">

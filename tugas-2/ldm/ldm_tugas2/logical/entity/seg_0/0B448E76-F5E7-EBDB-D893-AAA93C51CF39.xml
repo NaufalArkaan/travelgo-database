@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B448E76-F5E7-EBDB-D893-AAA93C51CF39" name="accommodation">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B448E76-F5E7-EBDB-D893-AAA93C51CF39" name="service_detail">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>16F3AA42-6D92-8C5F-AD1D-C040A8AD595F</generatorID>
@@ -12,7 +12,6 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>2F0FA620-B283-7475-D4DC-8FE1C5148D0C</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -74,6 +73,80 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="vehicle_type" id="8DD318B4-496F-C253-7506-94354D571CC5">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:03:26 UTC</createdTime>
+<generatorID>A7CA223B-DF75-3A18-BD73-BA48EDC7B568</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origin_city" id="EEB44767-13AB-5756-0C25-73F3F7A4E08E">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:03:26 UTC</createdTime>
+<generatorID>86AC22B8-8FA0-9E8A-A4B4-4D901070ED72</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destination_city" id="EEF18424-03C7-1160-BB85-3519794A1045">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:03:26 UTC</createdTime>
+<generatorID>55D8CA18-BC8A-B2A8-73D9-2988F167B451</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service_class" id="7971655C-9CED-5B35-58A3-398AD0B06AD2">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:03:26 UTC</createdTime>
+<generatorID>2A380AED-783E-9EA1-B66F-D7A4FC9805B4</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_id" id="76F33B39-0FF7-1EEF-467E-353A024C405C">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:04:32 UTC</createdTime>
+<generatorID>1481E1E0-325B-528A-787B-4661F6D782CB</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>B4A7F7B9-5FE3-99B2-4ADD-2415E0C6088A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="789F6888-8C71-79CB-2851-3F9BB50A9C9C" name="accommodation PK">
@@ -87,6 +160,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0D37A0E5-9249-A2A1-FC6D-3AE9FE09AC05</attributeRef>
+<attributeRef>76F33B39-0FF7-1EEF-467E-353A024C405C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

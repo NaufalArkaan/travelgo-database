@@ -57,6 +57,34 @@
 <logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="service_type" id="081EC80F-5CB1-B599-39F9-CA38AD288F23">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:03:36 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_id" id="B4A7F7B9-5FE3-99B2-4ADD-2415E0C6088A">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:04:32 UTC</createdTime>
+<generatorID>7C162324-B1BC-591D-1781-E618451C1619</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>9A7CF496-1E02-D3F2-6079-B58D2699DEF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="ED60FFD8-877C-7D16-2E49-20D603266FEA" name="service PK">
@@ -70,6 +98,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D279EFF3-CC40-FE78-CDCB-10107D14F7B2</attributeRef>
+<attributeRef>B4A7F7B9-5FE3-99B2-4ADD-2415E0C6088A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

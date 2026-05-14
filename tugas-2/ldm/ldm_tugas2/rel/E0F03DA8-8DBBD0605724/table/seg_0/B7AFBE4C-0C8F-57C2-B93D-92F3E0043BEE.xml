@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7AFBE4C-0C8F-57C2-B93D-92F3E0043BEE" name="attraction">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>199AAC13-FA25-D6C6-AC12-ADE6F52E4F95</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="attraction_id" id="BAE9AD14-D009-54A5-5C00-E0A10C64C6FE">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>3E0D3C22-36C7-9998-5D3C-D54F40A14AB1</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destination_id" id="2ECD1CE3-3F70-8A55-DAE9-B7708D5C569A">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>5056FAC1-614D-B5ED-D228-9AF62FE0A6C9</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A348496-7CCB-7023-38FF-2729DE3FCEF3" referredColumn="77AC3120-602D-B12E-11E1-5C04F7FAC955"/>
+</associations>
+</Column>
+<Column name="attraction_name" id="1F72F48A-5AC5-4453-8EB9-517044E0DDC7">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>E2476840-361D-BBB7-1F80-85CED3E4DCE8</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="75B63BEC-3C26-1E0C-D402-7D6010EA51D3">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>32A18224-404F-020F-F9BB-E96C6C4094E2</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AFAAD62-808C-C1A1-1AEF-39A18B749DF6" name="attraction_PK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>191202D5-9AC8-B29B-7793-9647064E8CD7</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAE9AD14-D009-54A5-5C00-E0A10C64C6FE"/>
+<colUsage columnID="2ECD1CE3-3F70-8A55-DAE9-B7708D5C569A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F3C22A7-F260-74BA-27DA-0B908F527E70" name="attraction_destination_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>A16CDBBE-8A46-2D47-A733-07D00FC8D366</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ECD1CE3-3F70-8A55-DAE9-B7708D5C569A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

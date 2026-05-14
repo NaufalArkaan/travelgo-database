@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40A6841F-EC6D-B922-461B-9180E1DB16DA" containerWithKeyObject="2222698C-450D-BCCD-2BCC-7D896C29BEAB" localFKIndex="4DE3D31C-FD2F-6115-80D2-EC8FF64179A1" name="loyalcard_individual_customer_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>B539DB4C-FE08-326C-6DF9-D75EDFFE5F1C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<referredTableLongName>individual_customer</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>FDC11ACE-7C5A-175B-3F92-1B2E46C01750</referredTableID>
+<keyObject>7425862E-8C25-F70B-1BBB-B61C4588F344</keyObject>
+<referredKeyID>7425862E-8C25-F70B-1BBB-B61C4588F344</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>user_id3,user_id12</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -31,6 +31,49 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="travel_preference" id="6E7DEE28-127A-B481-B31E-654840AC63BE">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 06:55:04 UTC</createdTime>
+<generatorID>A0A91D70-DFA0-EB06-C81A-6C8502FCC3E6</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_id" id="7271B28F-F914-3275-AAA5-2F368ACDC142">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:00:14 UTC</createdTime>
+<generatorID>73684AC9-88D5-5D05-463A-416903123893</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A7CF496-1E02-D3F2-6079-B58D2699DEF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id1" id="B8E01240-8822-780C-803B-FFED0C8FB9BF">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:24:18 UTC</createdTime>
+<generatorID>78E88A3E-17FE-CCBE-7B45-A7F93022EE08</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>87D8543D-7304-F37D-FF65-68E3065E1A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6DB5559E-E59C-12D1-3BCE-3397B4E3F418" name="individual customer PK">
@@ -44,6 +87,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D0938F04-1917-8AFA-3954-DE745C4CC13C</attributeRef>
+<attributeRef>B8E01240-8822-780C-803B-FFED0C8FB9BF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DB8C3F4-A637-66AE-9FA1-AB5001C546C2" name="address">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>82676885-ED15-2AC2-90CE-CAEAE2DF8B4F</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="4A41E913-D0B3-6A83-F892-572D7D1481E4">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>AEC122BC-72A3-201E-9B57-E2719A8FF87F</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="43A10CD6-ADF9-844A-FC6D-F87BA29611AB">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>A1EBE524-10EC-BE82-1660-9B5D97447279</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="8CFE1031-432F-C129-DDE4-0A282B7AEB20">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>3F24CCA1-347F-865C-9A98-C96A794E7341</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="province" id="31466903-C855-1704-AF01-16F4FAF7294F">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>0F808A86-8B7E-A153-98E4-6DFB7620F4E7</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="6A1BBBB6-B142-909D-4655-71C0FE5A1DFE">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>8BEDA7A6-41F7-6B86-FEDF-94821CBB39D4</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="6F106710-88BF-9E93-6841-956B95B67E18">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>08F3CECA-A19D-D0EF-4316-7741A7DCC37B</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="A1235BF8-28EE-F2CB-CED0-A23713F78ED1">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>A25A1842-7BCC-9C1A-9468-142062157484</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5A12871-5358-1790-6EC9-4645AE3A1DA9" referredColumn="3EA3C8F3-3B05-7C3E-88DB-1C2246A48FA9"/>
+</associations>
+</Column>
+<Column name="user_id1" id="54828A06-B918-FBD8-F93F-F3AFCEA4B0EE">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>669DEDE2-303A-B450-A909-555306B1373D</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5A12871-5358-1790-6EC9-4645AE3A1DA9" referredColumn="9326BC78-02FB-798C-6B9C-BE8230DE931E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9548FEA3-3152-56A2-A620-CFB0B3700B4C" name="address_PK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>B6525883-65FD-A80A-9772-DF81279F4654</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A41E913-D0B3-6A83-F892-572D7D1481E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE7AF078-2955-07A0-C3F3-DAFAFCCA1DAA" name="address_users_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>CCFD0B6A-0BA6-ECCE-6635-B466C8591703</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1235BF8-28EE-F2CB-CED0-A23713F78ED1"/>
+<colUsage columnID="54828A06-B918-FBD8-F93F-F3AFCEA4B0EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2222698C-450D-BCCD-2BCC-7D896C29BEAB" name="loyalcard">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>1213AE96-045C-65EB-47BB-C8AD284543EA</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="card_number" id="4B0DD17E-4C4B-07E4-8E51-18AE3E171C65">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>D6BC10CD-804F-0590-3BFA-CB0055F32FA1</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="join_date" id="294E6CCE-CBAE-FDCA-6A30-5CE91CAA1261">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>6F8DF774-205F-5229-694D-75DCF47F8FAD</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="membership_level" id="8E99A554-A06D-9C68-F06B-C2AD3506CE00">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>942ED9B6-8D95-2BC7-988B-92252423C871</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reward_points" id="47722D04-B5BD-B223-FFC7-752D954F0CC9">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>6F6F0C27-8FEA-8C49-294B-EB631BA27841</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="04047FA7-4C9E-080C-95CF-8B0449840E01">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>FD4EF6F7-069E-7DB6-87D8-B136DE1F1872</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40A6841F-EC6D-B922-461B-9180E1DB16DA" referredColumn="94693CE9-39A4-8F15-B466-DE33B0266C76"/>
+</associations>
+</Column>
+<Column name="user_id1" id="5F7BDC4C-383B-FBB3-8B7A-47F5AFCF3008">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>46A42482-55AE-AEEA-8D45-95FD823BF9FE</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40A6841F-EC6D-B922-461B-9180E1DB16DA" referredColumn="79B68D04-0CCD-4558-7978-DBD0C3F6F91A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B71F12C-76F6-1887-0A2D-04FC84E2BB1C" name="loyalcard_PK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>FE1EA89C-9570-912B-E209-2BB35BD765A3</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B0DD17E-4C4B-07E4-8E51-18AE3E171C65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34C38A5E-7553-075C-552D-B7A4301661BC" name="loyalcard__IDX">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B539DB4C-FE08-326C-6DF9-D75EDFFE5F1C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="04047FA7-4C9E-080C-95CF-8B0449840E01"/>
+<colUsage columnID="5F7BDC4C-383B-FBB3-8B7A-47F5AFCF3008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DE3D31C-FD2F-6115-80D2-EC8FF64179A1" name="loyalcard_individual_customer_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>B539DB4C-FE08-326C-6DF9-D75EDFFE5F1C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04047FA7-4C9E-080C-95CF-8B0449840E01"/>
+<colUsage columnID="5F7BDC4C-383B-FBB3-8B7A-47F5AFCF3008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

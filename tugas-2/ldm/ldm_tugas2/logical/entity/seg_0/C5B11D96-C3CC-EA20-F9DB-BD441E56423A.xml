@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5B11D96-C3CC-EA20-F9DB-BD441E56423A" name="trip">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5B11D96-C3CC-EA20-F9DB-BD441E56423A" name="booking_trip">
 <createdBy>Naufal</createdBy>
 <createdTime>2026-05-02 13:16:39 UTC</createdTime>
 <generatorID>F1009E04-9CC0-35C2-C999-ACEE88EED562</generatorID>
@@ -24,20 +24,6 @@
 <engineerTo>
 <item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="destination_id" id="8921CE07-5776-6845-BBA6-BD078070B27F">
-<createdBy>Naufal</createdBy>
-<createdTime>2026-05-02 13:16:39 UTC</createdTime>
-<generatorID>6468E0E9-9624-5CD6-7FD5-FB46F35EE9BC</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>DC2B78AC-C31D-B801-7AE3-23AEA2B0C757</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -114,20 +100,6 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,12,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user_id" id="E6E18BE7-DB11-EDF8-7C8D-A5FE2E79BFB3">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-02 14:01:52 UTC</createdTime>
-<generatorID>73684AC9-88D5-5D05-463A-416903123893</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="user_id1" id="DB6E04D9-5B25-CF37-E3A0-276B16DB87D1">
 <createdBy>IQBAL</createdBy>
 <createdTime>2026-05-02 16:12:12 UTC</createdTime>
@@ -138,6 +110,49 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>0AFFA11F-E09F-9F9B-D157-E45A8B8CC39C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="booking_date" id="3CA6079F-4331-CF7C-FFC4-A636E2238675">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 06:55:49 UTC</createdTime>
+<generatorID>37CC30B4-9F8B-1C15-C5C9-BA805383D342</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount_percentage" id="4956D91D-532F-A0BD-987E-AE80044E9FF8">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 06:55:49 UTC</createdTime>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id11" id="D870800A-A88D-E698-152A-E24429A17D61">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:24:18 UTC</createdTime>
+<generatorID>9991E88D-909C-318C-3C5E-0688CF789596</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1241EAF3-A771-0889-D761-1335A45CC7A5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

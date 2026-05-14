@@ -114,6 +114,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="user_id1" id="669DEDE2-303A-B450-A909-555306B1373D">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:24:18 UTC</createdTime>
+<generatorID>CCFD0B6A-0BA6-ECCE-6635-B466C8591703</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>87D8543D-7304-F37D-FF65-68E3065E1A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B6525883-65FD-A80A-9772-DF81279F4654" name="address PK">

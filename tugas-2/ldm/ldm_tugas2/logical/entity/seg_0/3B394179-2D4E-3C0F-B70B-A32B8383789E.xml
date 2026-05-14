@@ -85,6 +85,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="trip_id" id="55DD7E1C-84F0-2BAA-EB77-07F82EC9C593">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:04:32 UTC</createdTime>
+<generatorID>1409110D-ED2A-9206-071D-7D7F89FF4F34</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>B4A7F7B9-5FE3-99B2-4ADD-2415E0C6088A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="11FA4F11-F011-D589-4139-E556AC9E41B6" name="price history PK">

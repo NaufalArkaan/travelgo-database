@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AE522CB-AEA7-BF04-9BD4-8CFDAAD27CA0" name="others">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>81509059-3406-7FA0-88F0-E587A4B25764</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="D168F33C-70C3-1CF6-AC49-7944A82CD4F2">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78AA37B1-C9F3-D7DE-12C1-C5F6A3B52D79" referredColumn="3EA3C8F3-3B05-7C3E-88DB-1C2246A48FA9"/>
+</associations>
+</Column>
+<Column name="user_id1" id="830B8E61-487C-34CC-5DC5-1A643C4D013F">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>87D8543D-7304-F37D-FF65-68E3065E1A26</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78AA37B1-C9F3-D7DE-12C1-C5F6A3B52D79" referredColumn="9326BC78-02FB-798C-6B9C-BE8230DE931E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AF96355-711E-8F5A-19FF-D6B8E1E742C2" name="others_PK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>34855D4F-6DCA-0729-C26E-4675591963F9</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D168F33C-70C3-1CF6-AC49-7944A82CD4F2"/>
+<colUsage columnID="830B8E61-487C-34CC-5DC5-1A643C4D013F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F9D6396-B81D-CA07-73B8-19DB0F15D1E3" name="others_users_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>9DF29390-1ED8-7C5E-6384-D548D84E17F1</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D168F33C-70C3-1CF6-AC49-7944A82CD4F2"/>
+<colUsage columnID="830B8E61-487C-34CC-5DC5-1A643C4D013F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

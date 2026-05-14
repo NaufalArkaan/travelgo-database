@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECD4CBEA-92CB-0B96-FE5D-E96390DF2344" containerWithKeyObject="F0A68EA7-B5FA-8061-9048-1555ECC45768" localFKIndex="1B537DD2-19ED-9712-1330-C73E21B59160" name="agent_agent_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>3D1534C2-AA71-D2A0-B91A-A8CE684907E6</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<referredTableLongName>agent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0A68EA7-B5FA-8061-9048-1555ECC45768</referredTableID>
+<keyObject>F7762E46-5A4C-F9F7-98A8-10C0646A5430</keyObject>
+<referredKeyID>F7762E46-5A4C-F9F7-98A8-10C0646A5430</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>agent_id,user_id3,user_id112</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

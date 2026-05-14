@@ -57,6 +57,49 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="full_name" id="33BB173C-5067-8EEF-FEB0-398B0A0B13EB">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 06:54:54 UTC</createdTime>
+<generatorID>60F36C93-64A0-6BA6-D310-6A6B03F73CDE</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="4C305277-0023-A85D-61F7-A96FD44381EE">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 06:54:54 UTC</createdTime>
+<generatorID>EA4CE719-6B96-C093-8AE2-A908DFC94A41</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id1" id="87D8543D-7304-F37D-FF65-68E3065E1A26">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:24:14 UTC</createdTime>
+<generatorID>C910FD83-3C2A-62D2-3E5A-16C8B6D1D6D8</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<engineerTo>
+<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
+</engineerTo>
+<referedAttribute>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="34855D4F-6DCA-0729-C26E-4675591963F9" name="users PK">
@@ -70,6 +113,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</attributeRef>
+<attributeRef>87D8543D-7304-F37D-FF65-68E3065E1A26</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

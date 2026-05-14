@@ -88,20 +88,6 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="booking_id" id="8BF43C04-8D7D-CAEF-BFD5-A529DD5AC9E6">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-02 14:29:36 UTC</createdTime>
-<generatorID>CDC013C4-ECEC-C356-5F3D-B2466C1E67B6</generatorID>
-<ownerDesignName>ldm_tugas2</ownerDesignName>
-<engineerTo>
-<item key="E0F03DA8-4F76-DC45-18B3-8DBBD0605724" value="true"/>
-</engineerTo>
-<referedAttribute>21128022-3E33-23C7-9C63-FB323F462D16</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="306C12B5-C91B-3564-9683-9F1F7CAABFBC" name="payment PK">

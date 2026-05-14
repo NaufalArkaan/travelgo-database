@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F95CBA4-6AB2-E627-3D2D-2917647F994B" containerWithKeyObject="25EF4DE5-D0FF-5D48-7741-9DB492E85EA0" localFKIndex="43F6C7CA-5BD0-7414-D39F-B3D1648DEBB1" name="payment_booking_trip_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>CDC013C4-ECEC-C356-5F3D-B2466C1E67B6</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<referredTableLongName>booking_trip</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>A7557DCF-F0C3-2263-CCD7-C7AAF08A61BE</referredTableID>
+<keyObject>4A287F52-B197-73D0-20F2-746E3C074120</keyObject>
+<referredKeyID>4A287F52-B197-73D0-20F2-746E3C074120</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>trip_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

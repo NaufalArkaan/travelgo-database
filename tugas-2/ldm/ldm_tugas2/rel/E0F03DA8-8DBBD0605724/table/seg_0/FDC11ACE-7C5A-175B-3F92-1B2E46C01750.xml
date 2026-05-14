@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDC11ACE-7C5A-175B-3F92-1B2E46C01750" name="individual_customer">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>F83489E3-A401-F8EF-3AAB-C8DD61C46F32</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="BE65B502-99B8-C435-7840-3595605C83B7">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>2FE68D88-8EE1-4293-3FFE-C6545F23B93C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9120FCF8-23F6-C971-E7EF-F2608D852EFF" referredColumn="3EA3C8F3-3B05-7C3E-88DB-1C2246A48FA9"/>
+</associations>
+</Column>
+<Column name="user_id3" id="94693CE9-39A4-8F15-B466-DE33B0266C76">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>D0938F04-1917-8AFA-3954-DE745C4CC13C</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B4C0D81-CFA3-744B-B0AF-06AB004F8114" referredColumn="3EA3C8F3-3B05-7C3E-88DB-1C2246A48FA9"/>
+</associations>
+</Column>
+<Column name="travel_preference" id="A6D277B4-4C4F-1F72-4329-440B6ACCFB98">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>6E7DEE28-127A-B481-B31E-654840AC63BE</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_id" id="0CF3CFB1-44F2-65B3-A86F-21BCA5B5B057">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>7271B28F-F914-3275-AAA5-2F368ACDC142</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C662B91B-6337-4714-27FD-E17166892B8A" referredColumn="255FDD6D-F8FE-0AC0-6E85-BABEA9525C86"/>
+</associations>
+</Column>
+<Column name="user_id12" id="79B68D04-0CCD-4558-7978-DBD0C3F6F91A">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>B8E01240-8822-780C-803B-FFED0C8FB9BF</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B4C0D81-CFA3-744B-B0AF-06AB004F8114" referredColumn="9326BC78-02FB-798C-6B9C-BE8230DE931E"/>
+</associations>
+</Column>
+<Column name="user_id1" id="6904D454-62B8-3CA1-4FAF-C3F617819EE8">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>87D8543D-7304-F37D-FF65-68E3065E1A26</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9120FCF8-23F6-C971-E7EF-F2608D852EFF" referredColumn="9326BC78-02FB-798C-6B9C-BE8230DE931E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC288892-35CC-5580-C138-3B190488DF84" name="individual_customer_PK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>34855D4F-6DCA-0729-C26E-4675591963F9</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE65B502-99B8-C435-7840-3595605C83B7"/>
+<colUsage columnID="6904D454-62B8-3CA1-4FAF-C3F617819EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7425862E-8C25-F70B-1BBB-B61C4588F344" name="individual_customer_PKv1">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>6DB5559E-E59C-12D1-3BCE-3397B4E3F418</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94693CE9-39A4-8F15-B466-DE33B0266C76"/>
+<colUsage columnID="79B68D04-0CCD-4558-7978-DBD0C3F6F91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF20CB49-8420-E3BF-E8BB-3BAEFF83FAD4" name="individual_customer_users_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>DC63CA5A-51EA-E740-B552-DA6E3117FB29</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE65B502-99B8-C435-7840-3595605C83B7"/>
+<colUsage columnID="6904D454-62B8-3CA1-4FAF-C3F617819EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83FCB68E-3D11-3C9D-47E4-3A939204A463" name="individual_customer_users_FKv2">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>78E88A3E-17FE-CCBE-7B45-A7F93022EE08</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94693CE9-39A4-8F15-B466-DE33B0266C76"/>
+<colUsage columnID="79B68D04-0CCD-4558-7978-DBD0C3F6F91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BF82275-994F-5B77-93BD-A8F1EDF32F44" name="individual_customer_booking_trip_FK">
+<createdBy>IQBAL</createdBy>
+<createdTime>2026-05-14 07:28:01 UTC</createdTime>
+<generatorID>73684AC9-88D5-5D05-463A-416903123893</generatorID>
+<ownerDesignName>ldm_tugas2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CF3CFB1-44F2-65B3-A86F-21BCA5B5B057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
